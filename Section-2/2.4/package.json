@@ -1,0 +1,20 @@
+{
+  "name": "bdd",
+  "version": "1.0.0",
+  "description": "Behaviour Driven Development in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cucumber.js features -r steps"
+  },
+  "author": "Haider Malik",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^2.1.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-shell": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3"
+  }
+}
