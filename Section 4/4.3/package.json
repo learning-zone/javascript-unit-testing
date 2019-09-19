@@ -1,0 +1,15 @@
+{
+  "name": "ava-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/ava tests/**/*.test.js --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^1.3.1"
+  }
+}
