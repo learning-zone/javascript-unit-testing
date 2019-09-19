@@ -29,7 +29,7 @@ The code is designed to support this independence (see "Design principles" below
 
 They should meet the same level of quality as the code being tested. They can be refactored as well to make them more maintainable and/or readable.
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Design principles
 
@@ -44,8 +44,6 @@ The key to good unit testing is to write **testable code**. Applying simple desi
 + Apply adequate **design patterns**, especially **dependency injection** that allows separating an object's creation responsibility from business logic
 + Avoid global mutable state
 
-• [Back to ToC](#user-content-table-of-contents) •
-
 ## Guidelines
 
 The goal of these guidelines is to make your tests:
@@ -58,9 +56,6 @@ These are the 3 pillars of good unit testing.
 
 All the following examples assume the usage of the [Jasmine](http://jasmine.github.io) framework.
 
-• [Back to ToC](#user-content-table-of-contents) •
-
----------------------------------------
 
 ### Whenever possible, use TDD
 
@@ -85,7 +80,7 @@ How? Why?
 
 Note that code written without a test-first approach is often very hard to test.
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Structure your tests properly
 
@@ -131,7 +126,7 @@ describe('A set of functionalities', () => {
 });
 ```
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Name your tests properly
 
@@ -200,7 +195,7 @@ describe('The Gallery instance', () => {
 });
 ```
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Don't comment out tests
 
@@ -208,7 +203,7 @@ Never. Ever. Tests have a reason to be or not.
 
 Don't comment them out because they are too slow, too complex or produce false negatives. Instead, make them fast, simple and trustworthy. If not, remove them completely.
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Avoid logic in your tests
 
@@ -274,7 +269,7 @@ it('should sanitize a filename containing more than one dot', () => {
 });
 ```
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Don't write unnecessary expectations
 
@@ -306,7 +301,7 @@ it('should multiply the number passed as parameter and subtract one', () => {
 
 This will improve maintainability. Your test is no longer tied to implementation details.
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Properly setup the actions that apply to all the tests involved
 
@@ -407,7 +402,6 @@ describe('Saving the user profile', () => {
 
 Consider keeping the setup code minimal to preserve readability and maintainability.
 
-• [Back to ToC](#user-content-table-of-contents) •
 
 ### Consider using factory functions in the tests
 
@@ -570,8 +564,6 @@ describe('The search component', () => {
 });
 ```
 
-• [Back to ToC](#user-content-table-of-contents) •
-
 ### Know your testing framework API
 
 The API documentation of the testing framework/library should be your bedside book!
@@ -624,7 +616,7 @@ The handy `fit` function used in the example above allows you to execute only on
 
 More information on the [Jasmine website](http://jasmine.github.io).
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Don't test multiple concerns in the same test
 
@@ -653,7 +645,7 @@ it('should update the profile view properly', () => {
 
 Beware that writing "AND" or "OR" when naming your test smells bad...
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Cover the general case and the edge cases
 
@@ -694,7 +686,7 @@ describe('The RPN expression evaluator', () => {
 });
 ```
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### When applying TDD, always start by writing the simplest failing test
 
@@ -716,7 +708,7 @@ it('should return an empty string when passed an empty string', () => {
 
 From there, start building the functionalities incrementally.
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### When applying TDD, always make small steps in each test-first cycle
 
@@ -773,7 +765,7 @@ describe('The RPN expression evaluator', () => {
 });
 ```
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Test the behaviour, not the internal implementation
 
@@ -810,7 +802,7 @@ Con:
 
 Here, a balance has to be found, unit-testing some key parts can be beneficial.
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Don't mock everything
 
@@ -937,13 +929,13 @@ In particular, consider using the "real" version of the objects if:
 + the code being tested does not make AJAX requests, API calls or browser page reloads
 + the speed of execution of the tests stays *within the limits you fixed*
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Create new tests for every defect
 
 Whenever a bug is found, create a test that replicates the problem **before touching any code**. From there, you can apply TDD as usual to fix it.
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Don't write unit tests for complex user interactions
 
@@ -957,7 +949,7 @@ These interactions might involve many units of work and should be handled at a h
 
 For functional testing, consider using a test automation framework ([Selenium](http://docs.seleniumhq.org/), ...) or QA manual testing.
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Test simple user actions
 
@@ -1002,7 +994,7 @@ Note how simple the test is because the UI (DOM) layer does not mix with the bus
 
 The next step could be to test the business logic implemented in "showPreview()" or "hidePreview()".
 
-• [Back to ToC](#user-content-table-of-contents) •
+
 
 ### Review test code first
 
@@ -1010,15 +1002,10 @@ When reviewing code, always start by reading the code of the tests. Tests are mi
 
 It will help you understand the intent of the developer very quickly (could be just by looking at the names of the tests).
 
-• [Back to ToC](#user-content-table-of-contents) •
-
 ### Practice code katas, learn with pair programming
 
 Because experience is the _only_ teacher. Ultimately, greatness comes from practicing; applying the theory over and over again, using feedback to get better every time.
 
-• [Back to ToC](#user-content-table-of-contents) •
-
-## 📙 Resources
 
 ### Best practices
 
@@ -1051,4 +1038,3 @@ Because experience is the _only_ teacher. Ultimately, greatness comes from pract
 + Mocha: https://mochajs.org/
 + Tape: https://github.com/substack/tape
 
-• [Back to ToC](#user-content-table-of-contents) •
