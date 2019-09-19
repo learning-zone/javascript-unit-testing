@@ -1,0 +1,29 @@
+{
+  "name": "jesttestingasync",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "concurrently": "^3.5.1",
+    "react": "^16.2.0",
+    "react-app-rewire-mobx": "^1.0.7",
+    "react-app-rewired": "^1.5.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
+    "sinon": "^4.4.9"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject",
+    "watch": "concurrently --prefix \"[{name}]\" --names \"REACT,SASS\" -c \"bgBlue.bold,bgMagenta.bold\" \"yarn run start\" \"yarn run watch-styles\"",
+    "watch-styles": "sass --watch src/css/styles.scss:src/css/styles.css"
+  }
+}
