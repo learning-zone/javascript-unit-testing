@@ -1,0 +1,15 @@
+{
+  "name": "js-unit-test-examples-tap-nyc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html tap ./test/**/*.spec.js"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "devDependencies": {
+    "nyc": "^10.1.2",
+    "tap": "^9.0.3"
+  }
+}
