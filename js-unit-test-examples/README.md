@@ -1,4 +1,4 @@
-# js-unit-test-examples
+## JavaScript Unit Test Examples
 This repository contains a collection of example setups for common JavaScript unit testing frameworks and tools.
 
 |Example|Coverage|ES6|TypeScript|
