@@ -1,0 +1,15 @@
+{
+  "name": "js-unit-test-examples-ava-nyc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "nyc": "^10.1.2"
+  }
+}
