@@ -1,0 +1,15 @@
+{
+  "name": "mocha-unit-testing",
+  "version": "1.0.0",
+  "description": "Mocha Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jani Hartikainen",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
