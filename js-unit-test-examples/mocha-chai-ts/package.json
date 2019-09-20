@@ -1,0 +1,22 @@
+{
+  "name": "js-unit-test-examples-mocha-chai-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers ts:ts-node/register test/**/*.test.ts"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/mocha": "^2.2.38",
+    "@types/node": "^7.0.4",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5"
+  }
+}
