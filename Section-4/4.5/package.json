@@ -1,0 +1,16 @@
+{
+  "name": "intern-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "intern": "^4.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/intern"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
