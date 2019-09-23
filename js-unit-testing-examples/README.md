@@ -51,6 +51,3 @@ Some examples of how to test asynchronous functions and promises, including some
 - Passing test but is slow due to Promise function in chain taking a long time
 - Passing test and much faster as longer function is now stubbed to execute immediately
 
-## License
-
-See [LICENSE](LICENSE)
