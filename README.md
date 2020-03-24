@@ -982,7 +982,9 @@ These interactions might involve many units of work and should be handled at a h
 
 For functional testing, consider using a test automation framework ([Selenium](http://docs.seleniumhq.org/), ...) or QA manual testing.
 
-
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Test simple user actions
 
