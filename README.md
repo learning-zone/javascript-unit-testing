@@ -44,6 +44,10 @@ The key to good unit testing is to write **testable code**. Applying simple desi
 + Apply adequate **design patterns**, especially **dependency injection** that allows separating an object's creation responsibility from business logic
 + Avoid global mutable state
 
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
 ## Guidelines
 
 The goal of these guidelines is to make your tests:
@@ -80,7 +84,9 @@ How? Why?
 
 Note that code written without a test-first approach is often very hard to test.
 
-
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Structure your tests properly
 
