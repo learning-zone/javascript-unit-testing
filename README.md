@@ -829,7 +829,9 @@ Con:
 
 Here, a balance has to be found, unit-testing some key parts can be beneficial.
 
-
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Don't mock everything
 
@@ -945,6 +947,10 @@ describe('when the user has already visited the page', () => {
 ```
 
 The `MemoryStorage` used here does not persist data. Nice and easy, with no side effects.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 #### Takeaway
 
