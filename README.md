@@ -1001,3 +1001,6 @@ The next step could be to test the business logic implemented in "showPreview()"
 + Mocha: https://mochajs.org/
 + Tape: https://github.com/substack/tape
 
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
