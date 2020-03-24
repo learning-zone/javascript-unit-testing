@@ -415,6 +415,9 @@ describe('Saving the user profile', () => {
 
 Consider keeping the setup code minimal to preserve readability and maintainability.
 
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Consider using factory functions in the tests
 
@@ -576,6 +579,9 @@ describe('The search component', () => {
   });
 });
 ```
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Know your testing framework API
 
