@@ -278,8 +278,9 @@ it('should sanitize a filename containing more than one dot', () => {
   expect(sanitizeString('my.name.zip')).toBe('my-name.zip');
 });
 ```
-
-
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Don't write unnecessary expectations
 
@@ -311,7 +312,9 @@ it('should multiply the number passed as parameter and subtract one', () => {
 
 This will improve maintainability. Your test is no longer tied to implementation details.
 
-
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Properly setup the actions that apply to all the tests involved
 
