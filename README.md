@@ -628,6 +628,9 @@ it('should do something else but not now', () => {
 it('should do something else but not now', () => {
 });
 ```
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 #### Note
 
@@ -664,7 +667,9 @@ it('should update the profile view properly', () => {
 
 Beware that writing "AND" or "OR" when naming your test smells bad...
 
-
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Cover the general case and the edge cases
 
