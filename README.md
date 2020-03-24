@@ -132,7 +132,9 @@ describe('A set of functionalities', () => {
 });
 ```
 
-
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Name your tests properly
 
@@ -201,7 +203,9 @@ describe('The Gallery instance', () => {
 });
 ```
 
-
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Don't comment out tests
 
