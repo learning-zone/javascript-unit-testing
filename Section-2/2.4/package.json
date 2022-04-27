@@ -11,7 +11,7 @@
   "dependencies": {
     "chai": "^3.5.0",
     "cucumber": "^2.1.0",
-    "grunt": "^1.0.1",
+    "grunt": "^1.5.2",
     "grunt-cli": "^1.2.0",
     "grunt-shell": "^2.1.0",
     "gulp": "^3.9.1",
