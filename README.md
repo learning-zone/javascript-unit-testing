@@ -1,5 +1,6 @@
-## JS Unit Testing
+## JavaScript Unit Testing
 
+<br/>
 
 **Unit = Unit of work**
 
